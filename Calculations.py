@@ -27,13 +27,7 @@ class Calculations:
         num = int(input("Enter the number\n"))
         print(num*num*num)
 
-    def SquareRoot():
-        pass
-
-    def CubeRoot():
-        pass
-    
     def Percentage():
         num1 = int(input("Enter the number\n"))
-        num2 = int(input("Enter percentage\n"))
-        print(num2/num1*100)
+        num2 = int(input("Enter the percentage\n"))
+        print((num1*num2)/100)
